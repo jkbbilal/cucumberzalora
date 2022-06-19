@@ -1,6 +1,9 @@
 
 Feature: To validate login funcitonality of zalora web app
-
+@zalora
+Background:
+Given user should launch chrome browser and load the url
+ @zalora
 Scenario: To validate login funcitionality using Validusername and password
 When user click the account icon and login
 When user should type valid username and password
